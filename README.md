@@ -1,6 +1,6 @@
 # 关于
 
-## 技术文档与艺术文档
+## 1. 技术文档与艺术文档
 
 文档按目的不同，可分为“艺术文档”和“技术文档”两大类。
 
@@ -10,36 +10,36 @@
 
 同为文档，价值取向居然正好相反。随之而来，形式结构、排版布局、遣词造句等等诸多方面，其做法也必然大相径庭。
 
-## 技术文档标准
+## 2. 技术文档标准
 
 写好技术文档最直接的方法是标准化，一直未能找到一个简单有效、快速上手、面向技术文档写作的现成标准。
 
 本着“没有就自己造一个”的朴素想法，我们编写了：
 
-> **<big> [《技术文档标准》(Technical Document Standard / TDS)](standard/default.md)</big>**
+> **<big> [《技术文档标准》(Technical Document Standard / TDS)](doc/standard.md)</big>**
 
 标准都不是孤立存在，他们互相依赖，TDS 也不例外。实践 TDS 的过程中，你还可能用到：
 
-> *[规范性引用的标准及其现行版本](related/index.md)*  
-> *[参考的标准及其现行版本](related/index.md)*  
+> *[规范性引用的标准及其现行版本](doc/related/index.md)*\
+> *[参考的标准及其现行版本](doc/related/index.md)*
 
-## VSCode 扩展
+## 3. 基于 Markdown 的实现
 
 你完全可以用 Microsoft Word 或 Apple Pages 等软件，按照 TDS 的要求，编写自己的高质量技术文档。
 
-但这些流式文件编辑器生成的文件，无法用 Git 进行字符粒度的版本控制，这对专业程序员来说，是无法接受的。
+但这些流式文件编辑器生成的文件，无法用 Git 进行字符粒度的版本控制，这对专业程序员来说不可接受。
 
-为此，我们开发了 VSCode 插件，名字就叫 [**Technical Document Standard**](https://marketplace.visualstudio.com/items?itemName=forwcc.technical-document-standard)，帮你用 Markdown 实现 TDS。
+这个时候，你可以试试我们这套：
 
-主要功能包括：
+> **<big> [TDS 的 Markdown 解决方案](doc/solution.md) </big>**
 
-- 插入章节及其基本结构或示例。
-- 对正文、附件中标题和段落进行自动多级编号。
-- 不分页预览，另存为 HTML 等。
-- 分页预览，自动生成目录、封面，打印为 PDF。
-- 兼容对一般 Markdown 文档进行多级编号。
-- 支持 LaTeX 公式、Mermaid 图表、代码框语法高亮。
+你可以：
 
-## 快速开始
+- 对正文、附件中标题、段落进行自动多级编号。
+- 用 Mermaid 绘制图表、用 LaTeX 表达公式、给代码框加语法高亮等等。
+- 不分页浏览，保存为单文件 HTML。
+- 分页浏览，自动生成目录、封面、页眉页脚，打印为带页码的 PDF。
 
-你可以从 [《技术文档标准》的 Markdown 源码](https://raw.githubusercontent.com/forw-dev/technical-document-standard/refs/heads/master/standard/default.md) 开始学习，它本身就是一个不错的 TDS 示例。
+## 4. 快速开始
+
+你可以从 [《技术文档标准》的 Markdown 源码](https://raw.githubusercontent.com/tyxiang/technical-document-standard/refs/heads/master/doc/standard.md) 开始学习，它本身就是一个不错的 TDS 示例。

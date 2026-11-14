@@ -9,22 +9,17 @@
 cover
 cover-title 技术文档标准
 cover-subtitle Technical Document Standard
--->
+cover-sign forw.cc
 
-<!-- mtp:
 toc
 toc-depth 1
--->
 
-<!-- mtp:
 header
 header-right 技术文档标准
 
 footer
 footer-center {pn}/{pc}
--->
 
-<!-- mtp:
 h1-hide
 h2-align center
 -->

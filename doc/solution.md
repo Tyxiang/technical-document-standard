@@ -33,4 +33,4 @@ VSCode 扩展 markdown-multilevel-numbering。为 Markdown 文档中的标题和
 
 ## 6. 分页浏览、保存为 PDF
 
-浏览器扩展 Markdown in Pages。以分页方式浏览和打印本地 Markdown 文档。文档在浏览器中自动排版分页，可直接打印或输出为 PDF。
+浏览器扩展 Markdown to Pages。以分页方式浏览和打印本地 Markdown 文档。文档在浏览器中自动排版分页，可直接打印或输出为 PDF。

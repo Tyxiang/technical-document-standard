@@ -51,3 +51,5 @@ VSCode 扩展 markdown-multilevel-numbering。为 Markdown 文档中的标题和
 - 支持 Mermaid 图表。
 - 支持 D2 图表。
 - 支持 PlantUML 图表。
+
+Markdown to Pages 生成的 PDF 版 [《技术文档标准》](standard.pdf)。
